@@ -17,10 +17,35 @@ img {
 .navbar>a:hover{
     color: red;
 }
+.offering{
+    text-align: center;
+}
+.tile-wrapper{
+    border: 2px solid violet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
 div.tile{
     border: 1px sloid green;
+    width: 300px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.tile > img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 #hero-img{
-    width: 500px;
+    width: 400px;
     border: 1px sloid pink;
+}
+form{
+    border: 1px solid white;
+    padding: 1em;
+}
+input{
+    margin: 0.5em;
 }
