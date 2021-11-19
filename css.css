@@ -1,50 +1,89 @@
 body{
-    border: 1px solid blue;
+    
     background-color: rgb(12,89,89);
     font-family: 'Praise', sans-serif;
+    margin: 0;
+}
+.navbar{
+    height: 60px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
 h1{
-    color: #FAE53C;
-    text-align: center;
+    color: brown;
+    width: 50%;
 }
-img {
-    border: 2px solid orange;
+.nav-links{
+    width: 50%;
+    display: flex;
+    justify-content:  space-around;
 }
-.navbar >a {
-    color: #141414;
+.nav-links >a {
+    color: white;
     text-decoration: none;
 }
-.navbar>a:hover{
+.nav-links>a:visited{
+    color: yellowgreen;
+}
+.nav-links>a:hover{
     color: red;
 }
+
 .offering{
     text-align: center;
+    color: sienna;
 }
 .tile-wrapper{
-    border: 2px solid violet;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 div.tile{
-    border: 1px sloid green;
     width: 300px;
     padding: 1em;
-    box-sizing: border-box;
+    
 }
 .tile > img{
     width: 300px;
     height: 300px;
     object-fit: cover;
 }
+.capt{
+    position: relative;
+    bottom:23px;
+    
+    color:darkturquoise;
+}
+.capt2{
+     position: relative;
+    bottom:40px;
+    left: 15em;
+    
+    color:darkturquoise;
+}
+.capt3{
+     position: relative;
+    bottom:21em;
+    left: 16.9em;
+    
+    color:orange;
+}
 #hero-img{
-    width: 400px;
-    border: 1px sloid pink;
+    width: 100%;
+    height: auto;
 }
 form{
-    border: 1px solid white;
+    
     padding: 1em;
+    background-color: black;
+    color:yellow;
 }
 input{
     margin: 0.5em;
